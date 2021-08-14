@@ -6,6 +6,8 @@ import EventCard from './../components/eventCard/EventCard';
 
 import dotenv from 'dotenv-safe';
 
+dotenv.config();
+
 const endPoint = 'https://www.eventbriteapi.com/v3';
 const accessToken = process.env.ACCESS_TOKEN;
 const id = process.env.ENTITY_ID;
