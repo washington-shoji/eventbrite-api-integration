@@ -33,5 +33,13 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Rest
+# rest
 api.rest
+
+# firebase
+.firebase
+.firebaserc
+firebase.json
+
+# github
+.github/*
