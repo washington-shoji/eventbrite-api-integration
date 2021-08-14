@@ -1,0 +1,83 @@
+{"events": [
+    {
+      "name": {
+        "text": "The Art of Imperfect Leadership",
+        "html": "The Art of Imperfect Leadership"
+      },
+      "description": {
+        "text": "Registered participants will receive the zoom details before the event.",
+        "html": "Registered participants will receive the zoom details before the event."
+      },
+      "url": "",
+      "start": {
+        "timezone": "Australia/Sydney",
+        "local": "2021-08-19T19:00:00",
+        "utc": "2021-08-19T09:00:00Z"
+      },
+      "end": {
+        "timezone": "Australia/Sydney",
+        "local": "2021-08-19T20:00:00",
+        "utc": "2021-08-19T10:00:00Z"
+      },
+      "organization_id": "150830624043",
+      "created": "2021-05-04T10:41:55Z",
+      "changed": "2021-08-05T17:55:34Z",
+      "published": "2021-05-18T11:13:57Z",
+      "capacity": 100,
+      "capacity_is_custom": false,
+      "status": "live",
+      "currency": "AUD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": true,
+      "show_remaining": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": true,
+      "version": null,
+      "summary": "Registered participants will receive the zoom details before the event.",
+      "logo_id": "",
+      "organizer_id": "",
+      "venue_id": null,
+      "category_id": "101",
+      "subcategory_id": "1010",
+      "format_id": "2",
+      "id": "",
+      "resource_uri": "",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 14
+          },
+          "width": 1200,
+          "height": 600
+        },
+        "original": {
+          "url": "",
+          "width": 1200,
+          "height": 628
+        },
+        "id": "135759417",
+        "url": "",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      }
+    }
+  ]
+}

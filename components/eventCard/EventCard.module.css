@@ -1,0 +1,79 @@
+.cardDetail {
+	padding: 16px 8px 8px 8px;
+}
+
+.card {
+	margin: 32px 0px;
+	padding: 8px;
+	border-radius: 12px;
+	border: 1px solid #bacdd8;
+	box-shadow: 0 0 1px 1px gray;
+	width: 100%;
+	/* height: 650px; */
+}
+
+.image {
+	margin-bottom: 8px;
+	width: 100%;
+	height: 414px;
+	border-radius: 12px;
+	object-fit: cover;
+}
+
+.tag {
+	margin-right: 8px;
+	padding: 4px 8px;
+	border: 1px solid #e5eaed;
+	border-radius: 50px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #788697;
+}
+
+.name {
+	margin-top: 18px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #3659e3;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 150%;
+	color: #6f7287;
+}
+
+.date {
+	margin-top: 6px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #3659e3;
+}
+
+.registerButton {
+	display: block;
+	margin: 0 auto;
+	margin-top: 18px;
+	width: 100%;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 50px;
+	font-weight: 600;
+	color: #3659e3;
+	background-color: #e0efff;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+}
+
+.registerButton:focus,
+.registerButton:hover {
+	color: #e0efff;
+	background-color: #3659e3;
+}
+
+@media only screen and (max-width: 512px) {
+	.image {
+		width: 100%;
+		height: 214px;
+	}
+}
