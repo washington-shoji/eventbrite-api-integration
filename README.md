@@ -1,4 +1,4 @@
-A Next.js project which can be used as add on to any static website and its script file can be embedded as iFrame to any website.  The purpose of this project is to fetch and show a list of events from Eventbrite API.
+A Next.js project which can be used as add-on to any static website and its script file can be embedded as iFrame to any website.  The purpose of this project is to fetch and show a list of events from Eventbrite API.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

@@ -35,11 +35,3 @@ yarn-error.log*
 
 # rest
 api.rest
-
-# firebase
-.firebase
-.firebaserc
-firebase.json
-
-# github
-.github/*
