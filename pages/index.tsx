@@ -4,9 +4,9 @@ import styles from '../styles/Home.module.css';
 import {EventbriteEvent} from './../interface';
 import EventCard from './../components/eventCard/EventCard';
 
-import dotenv from 'dotenv-safe';
+// import dotenv from 'dotenv-safe';
 
-dotenv.config();
+// dotenv.config();
 
 const endPoint = 'https://www.eventbriteapi.com/v3';
 const accessToken = process.env.ACCESS_TOKEN;
@@ -31,7 +31,11 @@ export const getStaticProps = async () => {
 	};
 };
 
-const Home: NextPage<{events: EventbriteEvent[]}> = ({events}) => {
+const Home: NextPage<{events: Array<EventbriteEvent>}> = ({
+	events,
+}: {
+	events: Array<EventbriteEvent>;
+}) => {
 	return (
 		<div className={styles.container}>
 			<main className={styles.main}>
