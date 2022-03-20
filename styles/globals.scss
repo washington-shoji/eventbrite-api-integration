@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/*  styling scrollbars  */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #a5aaad;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #3ea175;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #a5aaad;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	// 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.text_primary_p {
+	color: #a5aaad;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.font_bold {
+	font-weight: 700;
+}
+
+.text_title {
+	color: #2e4a66;
+}
+
+.text_lightblue {
+	color: #469cac;
+}
+
+.text_red {
+	color: #cc3d38;
+}
+
+.text_yellow {
+	color: #a98921;
+}
+
+.text_green {
+	color: #3b9668;
+}
